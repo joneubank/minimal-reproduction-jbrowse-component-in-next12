@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import CircularComponent from "../components/CircularComponent";
-import LinearComponent from "../components/LinearComponent";
 
 const Home = dynamic(
   () =>
@@ -15,7 +14,6 @@ const Home = dynamic(
           </Head>
           <main>
             <CircularComponent />
-            <LinearComponent />
           </main>
         </>
       );

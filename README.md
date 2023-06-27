@@ -37,8 +37,7 @@ Modify your `next.config.js` to use plugins, and to transpile the ES6 based modu
 const withPlugins = require("next-compose-plugins");
 
 const withTranspileModules = require("next-transpile-modules")([
-  "@jbrowse/react-circular-genome-view",
-  "@jbrowse/react-linear-genome-view",
+  "@jbrowse/react-circular-genome-view"
 	// all other es6 imports
 ]);
 
