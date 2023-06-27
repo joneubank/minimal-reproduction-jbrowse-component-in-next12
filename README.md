@@ -2,6 +2,7 @@
 
 > This branch is a demonstration of the work around to circumvent the issue. The `main` branch details the original error.
 
+This will be necessary to use JBrowse React Components with NextJS <=12.  Unfortunately Next13 requires React 18+ and JBrowse React Components have a peer dependency for React 17, so there may be other issues using these components with newer versions of NextJS.
 ### Steps to run
 1. `npm ci`
 2. `npm run dev`
