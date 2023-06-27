@@ -1,0 +1,25 @@
+{
+  "name": "minimal-nextjs-jbrowse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@jbrowse/react-circular-genome-view": "^2.6.1",
+    "@jbrowse/react-linear-genome-view": "^2.6.1",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2"
+  }
+}
