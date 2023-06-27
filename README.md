@@ -15,7 +15,7 @@ SyntaxError: Unexpected token 'export'
 
 This is a known issue that occurs when imported packages have been transpiled to ES2015 or greater as described in [this SO answer](https://stackoverflow.com/a/65939797). It appears that JBrowse is compiling components to ES2018.
 
-This will impact all projects using NextJS <=12 , it was fixed in NextJS 13. 
+This will impact all projects using NextJS <=12 , it was fixed in NextJS 13. JBrowse React Components have a peer dependency for react @ `^17` and NextJS13 requires React 18+, so there may be other compatibility issues using JBrowse React Components with the newer versions of NextJS.
 
 There is an available remedy to make packages of this sort usable in NextJS <=12, [detailed here](#work-around). There is a separate branch of this repository named `with-work-around` that implements this work around.
 
